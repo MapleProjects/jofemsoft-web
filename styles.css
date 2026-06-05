@@ -231,6 +231,14 @@ a {
     gap: 12px;
 }
 
+.navbar__logo {
+    width: 48px;
+    height: 48px;
+    border-radius: var(--radius-sm);
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
 .navbar__name {
     font-size: 1.3rem;
     font-weight: 800;
@@ -1021,6 +1029,13 @@ a {
     align-items: center;
     gap: 12px;
     flex-wrap: wrap;
+}
+
+.footer__logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    object-fit: cover;
 }
 
 .footer__name {
